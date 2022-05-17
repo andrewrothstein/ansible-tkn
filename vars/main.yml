@@ -1,0 +1,11 @@
+---
+# vars file for tkn
+tkn_platform: '{{ tkn_os }}_{{ tkn_arch }}'
+tkn_name: tkn_{{ tkn_ver }}_{{ tkn_platform }}
+tkn_archive: '{{ tkn_name }}.{{ tkn_archive_type | default("tar.gz") }}'
+tkn_url: '{{ tkn_mirror }}/v{{ tkn_ver }}/{{ tkn_archive }}'
+tkn_tmp_archive: '{{ tkn_tmp_dir | default("/tmp") }}/{{ tkn_archive }}'
+tkn_checksum: '{{ tkn_checksums[tkn_ver][tkn_platform] }}'
+tkn_install_dir: '{{ tkn_parent_install_dir }}/{{ tkn_name }}'
+tkn_install_exe: '{{ tkn_install_dir }}/tkn'
+tkn_install_link: '{{ tkn_parent_install_dir }}/bin/tkn'

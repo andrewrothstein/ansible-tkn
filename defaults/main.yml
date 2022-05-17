@@ -1,0 +1,27 @@
+---
+# defaults file for tkn
+tkn_ver: 0.23.1
+tkn_os: Linux
+tkn_arch: x86_64
+tkn_parent_install_dir: /usr/local
+
+tkn_mirror: https://github.com/tektoncd/cli/releases/download
+tkn_checksums:
+  # https://github.com/tektoncd/cli/releases/download/v0.23.1/checksums.txt
+  '0.23.1':
+    # https://github.com/tektoncd/cli/releases/download/v0.23.1/tkn_0.23.1_Darwin_arm64.tar.gz
+    Darwin_arm64: sha256:8f4a572b9f6fea694150cba059d63d10a881a35661a745b6d2295d92a71bcaa4
+    # https://github.com/tektoncd/cli/releases/download/v0.23.1/tkn_0.23.1_Darwin_x86_64.tar.gz
+    Darwin_x86_64: sha256:e66b80f385a73fc634b79a97ca7908666536974e2b855d9218ff53a78cc4a0ce
+    # https://github.com/tektoncd/cli/releases/download/v0.23.1/tkn_0.23.1_Linux_arm64.tar.gz
+    Linux_arm64: sha256:6a0f5d33855628222b2f345cd3a1982a79812f18fe74f7283fbe8600ce4f2d62
+    # https://github.com/tektoncd/cli/releases/download/v0.23.1/tkn_0.23.1_Linux_ppc64le.tar.gz
+    Linux_ppc64le: sha256:244afffeb79c83185c88e0f43f7483fdb2f01ed2512340d0d8c3c18b42b3efa8
+    # https://github.com/tektoncd/cli/releases/download/v0.23.1/tkn_0.23.1_Linux_s390x.tar.gz
+    Linux_s390x: sha256:30873cff020f653319b07bdcb1a2f3c572efd81d7d402ff2f74c626a7db1cf59
+    # https://github.com/tektoncd/cli/releases/download/v0.23.1/tkn_0.23.1_Linux_x86_64.tar.gz
+    Linux_x86_64: sha256:2496b1315c116ab7fc99fe698d0b29c9cbe40cffa85c060b7c644b8004157f5e
+    # https://github.com/tektoncd/cli/releases/download/v0.23.1/tkn_0.23.1_Windows_arm64.zip
+    Windows_arm64: sha256:ec3ccb83baadca5cd8c58b0edba4b77cca8244f4278310c3cdc0b9eda0e8f5d9
+    # https://github.com/tektoncd/cli/releases/download/v0.23.1/tkn_0.23.1_Windows_x86_64.zip
+    Windows_x86_64: sha256:7f8ffdf830e52b856e6b7e389bd62bad9e30e1c4e6e909bd80034a58a021ca13
