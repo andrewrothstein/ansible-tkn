@@ -3,8 +3,8 @@
   roles:
   - role: '{{ playbook_dir }}'
   tasks:
-  - command: /usr/local/bin/tkn version
+  - command: /usr/local/bin/tkn version --component client
     register: tkn_test_output
-  - name: tkn version
+  - name: tkn version --component client
     debug:
       msg: '{{ tkn_test_output.stdout }}'
