@@ -38,4 +38,4 @@ dl_ver() {
     dl $app $ver $lchecksums Windows x86_64 zip
 }
 
-dl_ver tkn ${1:-0.28.0}
+dl_ver tkn ${1:-0.29.1}
