@@ -1,6 +1,6 @@
 ---
 # defaults file for tkn
-tkn_ver: 0.29.1
+tkn_ver: 0.31.1
 tkn_parent_install_dir: /usr/local
 
 tkn_mirror: https://github.com/tektoncd/cli/releases/download
@@ -29,3 +29,15 @@ tkn_checksums:
     Linux_x86_64: sha256:790d4960f16bd56d2063839837d9b61341a8160e2dd3158b5f011fd7ed1351fc
     # https://github.com/tektoncd/cli/releases/download/v0.29.1/tkn_0.29.1_Windows_x86_64.zip
     Windows_x86_64: sha256:262c0c60ebddac93438640f7b38f78fc29341199b9e4d99f2c29ae61042588e1
+  # https://github.com/tektoncd/cli/releases/download/v0.31.1/checksums.txt
+  '0.31.1':
+    # https://github.com/tektoncd/cli/releases/download/v0.31.1/tkn_0.31.1_Linux_aarch64.tar.gz
+    Linux_aarch64: sha256:ef1f8566f9784b7e6291785359e5f010d1e85b0b267c3cbc98bd0704b7de6f10
+    # https://github.com/tektoncd/cli/releases/download/v0.31.1/tkn_0.31.1_Linux_ppc64le.tar.gz
+    Linux_ppc64le: sha256:5385081cd60e8e0f4b702a04fbfdadb1f005fbb266727a18efadd30fd37091e4
+    # https://github.com/tektoncd/cli/releases/download/v0.31.1/tkn_0.31.1_Linux_s390x.tar.gz
+    Linux_s390x: sha256:36c3b4c3a86c8fb6f764f79883f90d4cd92c0e74d4b20ed75ebd1788b74b9b1b
+    # https://github.com/tektoncd/cli/releases/download/v0.31.1/tkn_0.31.1_Linux_x86_64.tar.gz
+    Linux_x86_64: sha256:dc1a15443133ebc669dbebfab548f1d1abe401ce9034a3e61b0cd0364c34e75c
+    # https://github.com/tektoncd/cli/releases/download/v0.31.1/tkn_0.31.1_Windows_x86_64.zip
+    Windows_x86_64: sha256:f9a8c39d0ee6cf03a2a092466b0578c8740a4bddfc1910ce3042868cfac891b1

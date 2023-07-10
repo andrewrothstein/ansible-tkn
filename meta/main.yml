@@ -15,22 +15,20 @@ galaxy_info:
         - all
     - name: Debian
       versions:
+        - bookworm
         - bullseye
-        - buster
     - name: EL
       versions:
         - 8
+        - 9
     - name: Fedora
       versions:
-        - 35
-        - 36
+        - 37
+        - 38
     - name: Ubuntu
       versions:
-        - bionic
         - focal
+        - bookworm
   galaxy_tags:
     - development
   role_name: tkn
-
-dependencies:
-  - andrewrothstein.unarchive-deps
